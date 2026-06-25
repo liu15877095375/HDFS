@@ -1,0 +1,31 @@
+
+# Dependencies
+node_modules/
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+dist-ssr/
+build/
+
+# Env
+*.local
+.env
+.env.*
+
+# Coverage
+coverage/

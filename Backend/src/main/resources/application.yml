@@ -1,0 +1,12 @@
+alipay:
+  app-id: your_alipay_app_id
+  sign-type: RSA2
+  charset: UTF-8
+  format: json
+  # 应用私钥（PKCS8 带头尾）
+  merchant-private-key: "your_merchant_private_key"
+  # 支付宝公钥（纯字符串，不带头尾）
+  alipay-public-key: "your_alipay_public_key"
+  gateway-url: https://openapi-sandbox.dl.alipaydev.com/gateway.do
+  notify-url: http://sd4d535a.natappfree.cc/api/payment/alipay/notify
+  return-url: http://localhost:5173/pay/result
